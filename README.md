@@ -28,7 +28,7 @@ ________________________
 		• Provides a write-but-discard cache of your content
 		• Created asynchronously when site is started
 		• Automatically serves content once the cache is ready
-                    • Faster than reading content from Azure Storage directly on each client request
+                • Faster than reading content from Azure Storage directly on each client request
 
 **Implement Azure Functions**
 
