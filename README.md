@@ -6,8 +6,16 @@ ________________________
 
 **Creating Azure App Service Web Apps**
 - k
-- ![image](https://user-images.githubusercontent.com/81177008/121758102-d461f880-cad4-11eb-8cc6-04aa1075c6bf.png)
 
+**Implement Azure Functions**
+
+**Develop solutions that use blob storage**
+
+**Develop solutions that use Cosmos DB Storage**
+
+**Implement IaaS Solution**
+
+**Implement user authentication and authorization**
           
 ________________________
 ## Links
