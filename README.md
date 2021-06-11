@@ -29,6 +29,26 @@ ________________________
 		• Created asynchronously when site is started
 		• Automatically serves content once the cache is ready
                 • Faster than reading content from Azure Storage directly on each client request
+		
+	• App Service on Linux
+		• Why Linux?
+			§ Many applications stacks are optimized for Linux:
+				□ Ruby/Rails, PHP, Node, and others
+				□ Often, better tools are available on Linux for these stacks
+			§ New and upcoming frameworks are built for Linux first and then Windows
+			§ Portability of Docker containers
+			§ Linux is at the forefront of innovations in nano and microservice architecture
+
+	• OS & runtime patching
+		• OS and application stack are managed by Azure on your behalf
+		• Monthly OS patching:
+			§ Physical servers
+			§ Guest virtual machines
+		• Stable versions of application runtimes are periodically added to App Services:
+			§ Some are installed side-by-side, while others replace existing versions
+			§ You can manually migrate from one application runtime to another
+			
+
 
 **Implement Azure Functions**
 
