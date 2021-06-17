@@ -151,6 +151,31 @@ ________________________
 
 **Develop solutions that use Cosmos DB Storage**
 
+	• Azure Cosmos DB overview
+		• Azure Cosmos DB
+				![image](https://user-images.githubusercontent.com/81177008/122485641-454d5880-cf8c-11eb-8fd3-6d37a6f100cc.png)
+		
+		• Core Functionality
+			§ Global replication
+				□ Automatic and synchronous multi-region replication
+				□ Support automatic and manual failover
+			§ Varied consistency levels
+				□ Offers five consistency models
+				□ Provides control over performance-consistency tradeoffs, backed by comprehensive SLAs
+			§ Low Latency
+				□ Serve <10 ms read and <10 ms write requests at the 99th percentile
+			§ Elastic scale-out
+				□ Elastically scale throughput from 10 to 100s of millions of requests/sec across multiple regions
+				□ Support for requests/sec for different workloads
+				
+		• Consistency Levels    (https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels)
+			§ Strong
+			§ Bounded staleness
+			§ Session
+			§ Consistent prefix
+			§ Eventual
+			
+
 **Implement IaaS Solution**
 
 **Implement user authentication and authorization**
