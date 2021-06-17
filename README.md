@@ -52,6 +52,61 @@ ________________________
 
 **Implement Azure Functions**
 
+	• Azure Functions Overview
+		• What can Azure Functions do?
+			§ Run code based in HTTP requests
+			§ Schedule code to run at predefined times
+			§ Process new and modified
+				□ Azure Cosmos DB documents
+				□ Azure Storage blobs
+				□ Azure Queue storage messages
+			§ Respond to Azure Event Grid events by using subscriptions and filters
+			§ Respond to high volumes of Azure Event Hubs events
+			§ Respond to Azure Service Bus queue and topic messages
+		• Azure Functions
+			§ Solution for running small pieces of code, or functions, in the cloud:
+						
+
+		• Scale and Hosting
+			§ You can choose between three types of plans:
+				□ Consumption
+					® Instances are dynamically instanced and you are charged based on compute time
+				□ Premium
+					® Instances of the Azure Functions host are added and removed based on the number of incoming events just like the Consumption plan, but provides additional features like: VNet connectivity; unlimited execution duration; and more predictable pricing
+				□ App Service Plan
+					® Traditional App Services model used with Web Apps, API Apps, and Mobile Apps
+			§ The type of plan controls:
+				□ How host instances are scaled out
+				□ The resources that are available to each host
+		• Bindings
+			§ Declarative way to connect to data from your code:
+				□ Connect to services without writing plumbing code
+				□ Service credentials are not stored in code
+				□ Bindings are optional
+			§ Function can have multiple input and output bindings
+			§ Output bindings can send data to Azure services such as:
+				□ Storage
+				□ Azure Cosmos DB
+				□ Service Bus
+					
+
+		• Best Practices
+			§ Avoid long-running functions
+			§ Use queues for cross-function communication
+			§ Write stateless functions
+			§ Code defensively
+			
+	• Developing Azure Functions
+		• Durable Functions
+					
+
+			§ Durable Function Methods
+				□ Fan-out/Fan-in
+				□ Async HTTP APIs
+				□ Monitoring
+				□ Human Interaction
+
+
 **Develop solutions that use blob storage**
 
 **Develop solutions that use Cosmos DB Storage**
