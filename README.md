@@ -49,7 +49,6 @@ ________________________
 			§ You can manually migrate from one application runtime to another
 			
 
-
 **Implement Azure Functions**
 
 	• Azure Functions Overview
@@ -108,6 +107,47 @@ ________________________
 
 
 **Develop solutions that use blob storage**
+
+	• Azure Storage Overview
+				
+
+	• Azure Blob storage
+		• Object storage solution in the cloud
+		• Blob storage is designed for:
+			§ Serving images or documents directly to a browser
+			§ Storing files for distributed access
+			§ Streaming video and audio
+			§ Writing to log files
+			§ Storing data for backup and restore, disaster recovery, and archiving
+			§ Storing data for analysis by an on-premises or Azure-hosted service
+		• Accessible via a HTTP/HTTPS API
+	• Blob Types
+		• Block blobs
+		• Append blobs
+		• Page blobs
+	• Storage durability options
+			
+	
+	• Storage Tiers
+		• Performance Tier
+			§ Premium
+		• Access Tier
+			§ Hot
+			§ Cool
+			§ Archive
+	• Lease Blob Operation
+		• Establishes a lock on a blob for write and delete
+			§ Duration is typically 15 to 60 seconds
+			§ Optionally, you can establish an infinite lock
+		• Operation has five modes:
+			§ Acquire
+			§ Renew
+			§ Change
+			§ Release
+			§ Break (end the lease but prevent other clients from acquiring a new lease)
+
+![image](https://user-images.githubusercontent.com/81177008/122333793-82164280-ceed-11eb-800c-5b9a5f62d4ef.png)
+
 
 **Develop solutions that use Cosmos DB Storage**
 
