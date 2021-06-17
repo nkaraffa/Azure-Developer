@@ -153,7 +153,7 @@ ________________________
 
 	• Azure Cosmos DB overview
 		• Azure Cosmos DB
-				![image](https://user-images.githubusercontent.com/81177008/122485641-454d5880-cf8c-11eb-8fd3-6d37a6f100cc.png)
+![image](https://user-images.githubusercontent.com/81177008/122485641-454d5880-cf8c-11eb-8fd3-6d37a6f100cc.png)
 		
 		• Core Functionality
 			§ Global replication
