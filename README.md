@@ -177,6 +177,46 @@ ________________________
 			
 
 **Implement IaaS Solution**
+	• VM Categories
+					
+
+	• Azure Resource Manager Overview
+		• F
+				
+
+	• Containers
+		• Docker Terminology
+			§ Container
+				□ An instance of a Docker image
+			§ Container Image
+				□ A standardized "unit of software" that contains everything required for an application to run
+			§ Build
+				□ The process of creating a container image using a set of instructions
+			§ Pull
+				□ The process of downloading a container image from a container registry
+			§ Push
+				□ The process of uploading a container image to a container registry
+			§ Dockerfile
+				□ A text file that contains instructions required to build a Docker image
+			§ Registry
+				□ A service that stores container images
+				
+		• Azure Container Instances (ACI)
+			§ Simplest way to run a container in Azure:
+				□ Doesn't require IaaS provisioning
+				□ Doesn't require the adoption of a higher-level service
+			§ Ideal for one-off, isolated container instances:
+				□ Simple applications
+				□ Task automation
+				□ Build jobs
+			§ Supports Linux and Windows containers
+			§ Supports direct mounting of Azure Files shares
+			§ Container can be provisioned with public IP address and DNS name
+			
+		• Container Instance features
+					
+![image](https://user-images.githubusercontent.com/81177008/124838948-b43f2100-df3c-11eb-9912-29e15d6c4628.png)
+
 
 **Implement user authentication and authorization**
           
